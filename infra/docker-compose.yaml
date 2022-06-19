@@ -10,9 +10,7 @@ services:
       - ./.env
 
   web:
-    build:
-      context: ../
-      dockerfile: yamdb_final/Dockerfile
+    image: denisclishin/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
