@@ -10,7 +10,7 @@ Django Rest Framework
 Postgres
 Docker
 
-Автор: Денис Клишин
+Автор: Денис Клишин.
 https://github.com/Densaur
 
 Документация и возможности API:
