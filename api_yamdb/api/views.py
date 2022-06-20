@@ -28,7 +28,6 @@ from .serializers import (TitleGeneralSerializer,
                           UserSerializer,
                           CommentSerializer)
 from reviews.models import User, Category, Genre, Title, Review
-
 from .filters import TitlesFilter
 from .mixins import ApiViewSet
 
