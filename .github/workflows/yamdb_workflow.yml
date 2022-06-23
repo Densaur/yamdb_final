@@ -40,14 +40,14 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push to Docker Hub
-        run: |
-          sudo docker-compose exec -T web cp redoc.yaml static
         uses: docker/build-push-action@v2 
         with:
           context: ./api_yamdb/
           file: ./api_yamdb/Dockerfile
           push: true
           tags: denisclishin/yamdb_final:latest 
+          script: |
+            sudo docker-compose exec -T web cp redoc.yaml static
   
   deploy:
     runs-on: ubuntu-latest
