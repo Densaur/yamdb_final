@@ -1,4 +1,4 @@
-![example workflow](https://github.com/Densaur/docs/actions/workflows/api_yamdb.yml/badge.svg)
+![example workflow](https://github.com/Densaur/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
 
