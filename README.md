@@ -1,13 +1,13 @@
 ![example workflow](https://github.com/Densaur/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
-
 YAMDB_FINAL
 http://51.250.104.86/admin
 
 API для получения информации и обсуждения наиболее интересных произведений
 
 Стэк технологий:
+
 Python
 Django Rest Framework
 Postgres
