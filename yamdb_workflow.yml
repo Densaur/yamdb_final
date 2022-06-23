@@ -46,6 +46,8 @@ jobs:
           file: ./api_yamdb/Dockerfile
           push: true
           tags: denisclishin/yamdb_final:latest 
+          script: |
+            sudo docker-compose exec -T web cp redoc.yaml static
 
   deploy:
     runs-on: ubuntu-latest
