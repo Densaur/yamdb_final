@@ -1,6 +1,9 @@
 ![example workflow](https://github.com/Densaur/docs/actions/workflows/api_yamdb.yml/badge.svg)
+
+
+
 YAMDB_FINAL
-http://51.250.104.86:5000/
+http://51.250.104.86/admin
 
 API для получения информации и обсуждения наиболее интересных произведений
 
